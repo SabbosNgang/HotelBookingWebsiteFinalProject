@@ -7,24 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>SB HOTEL - Facilities</title>
     <?php require ('inc/links.php')?>
-    <style>
-        .pop:hover{
-            border-top-color: var(--teal) !important;
-            transform: scale(1.03);
-            transition: all 0.3s;
-        }
-    </style>
 </head>
 <body class="bg-light">
 <?php require('inc/header.php')?>
 <div class="my-5 px-4">
     <h2 class="fw-bold h-font text-center">OUR FACILITIES</h2>
-    <div class="h-line bg-dark"></div>
-    <p class="text-center mt-3">
-        Customers should be able to follow customer service.
-        <br>No one will accept God, incidentally released,
-        but all the time of proper eating.
-    </p>
 </div>
 
 <div class="container">
@@ -46,7 +33,7 @@
             <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop">
                 <div class="d-flex align-items-center mb-2">
                     <img src="images/features/AC.svg" width="40px">
-                    <h5 class="m-0 ms-3">AC</h5>
+                    <h5 class="m-0 ms-3">Air Conditioner</h5>
                 </div>
                 <p>
                     Customers should be able to follow customer service.
@@ -85,7 +72,7 @@
             <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop">
                 <div class="d-flex align-items-center mb-2">
                     <img src="images/features/fire_alarm.svg" width="40px">
-                    <h5 class="m-0 ms-3">Fire Alarm</h5>
+                    <h5 class="m-0 ms-3">Geyser</h5>
                 </div>
                 <p>
                     Customers should be able to follow customer service.
@@ -97,8 +84,8 @@
         <div class="col-lg-4 col-md-6 mb-5 px-4">
             <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop">
                 <div class="d-flex align-items-center mb-2">
-                    <img src="images/features/wifi.svg" width="40px">
-                    <h5 class="m-0 ms-3">Wifi</h5>
+                    <img src="images/features/Spa.svg" width="40px">
+                    <h5 class="m-0 ms-3">Spa</h5>
                 </div>
                 <p>
                     Customers should be able to follow customer service.
@@ -109,7 +96,7 @@
         </div>
     </div>
 </div>
-
 <?php require ('inc/footer.php')?>
+<?php require ('inc/Script.php')?>
 </body>
 </html>
